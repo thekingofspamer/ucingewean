@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 from os import system
 system("clear")
 print ("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print ("| AUTHOR   : AyipBontos              |")
-print ("| Support  : Kunjungi Website kami   |")
-print ("| WEBSITE  : termux.id               |")
-print ("| Youtube  : OmalipTv                |")
+print ("| AUTHOR   : Ucing Ewean              |")
+print ("| Support  : Ewean Itu Nikmat   |")
+print ("| WEBSITE  : ucingewean.com              |")
+print ("| Youtube  : Ucing Ewean              |")
 print ("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 class YC:
     def __init__(self, email, pw):
