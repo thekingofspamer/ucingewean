@@ -30,9 +30,9 @@ class YC:
                 em = json.loads(requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+self.token).text)["email"]
             except KeyError:
                 continue
-            if ("yahoo.com" in em): pass
+            if ("aol.com" in em): pass
             else: continue
-            br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+            br.open("https://login.aol.com/=https://aol.com")
             br._factory.is_html = True
             br.select_form(nr=0)
             br["username"] = (em)
